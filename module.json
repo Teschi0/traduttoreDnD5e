@@ -1,0 +1,27 @@
+{
+  "name": "translation-dnd5e-it",
+  "title": "DnD5e Italian Translation",
+  "description": "Add Italian language to dnd5e system for FoundryVTT.",
+  "version": "0.50",
+  "minimumCoreVersion" : "11",
+  "compatibleCoreVersion":"12",
+  "systems": ["dnd5e"],
+  "minimumSystemVersion": "1.6.0",
+  "dependencies": [{
+    "name": "babele",
+    "type": "module"
+  }],
+  "author": "ariakas81, Simone, MrDaerlic, ciuei, DMage, Floppy, heirold, Elia.Hard",
+  "esmodules": ["babele-register.js"],
+  "scripts": [],
+  "styles": ["./style.css"],
+  "packs": [],
+  "languages": [{
+    "lang": "it",
+    "name": "Italian",
+    "path": "it.json"
+  }],
+  "url": "https://github.com/Rockmetalcom/traduttoreDnD5",
+  "manifest": "https://raw.githubusercontent.com/Rockmetalcom/traduttoreDnD5/main/module.json",
+  "download": "https://github.com/Rockmetalcom/traduttoreDnD5/archive/refs/heads/main.zip"
+}
