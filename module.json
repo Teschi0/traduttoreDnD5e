@@ -5,6 +5,7 @@
   "version": "0.50",
   "minimumCoreVersion": "11",
   "compatibleCoreVersion": "12",
+  "id" : "translation-dnd5e-it-wikirole",
   "systems": ["dnd5e"],
   "minimumSystemVersion": "1.6.0",
   "dependencies": [{
